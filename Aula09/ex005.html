@@ -1,24 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiros passos com o DOM</title>
-    <Style>
- body {background: rgb(35, 157, 35);
-        color: white;
-        font: 16pt Arial;
-}
-    </Style>
+    <title>Iniciando com o DOM</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, rgba(179, 126, 126, 0.767), rgba(174, 238, 238, 0.822), rgba(133, 174, 133, 0.763), rgba(214, 214, 138, 0.758));
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        :hover > #button {
+            font-weight: bold;
+            background-color: red;
+            color: black;
+            border-color: black;
+        }
+        #button {
+            font-weight: bold;
+            border: 2px solid black;
+            text-align: center;
+            border-radius: 2px;
+            margin: auto;
+            display: inline-block;
+            border-bottom-left-radius: 15px; 
+            border-bottom-right-radius: 15px; 
+            padding: 5px;  
+            background-color: black; 
+            color: greenyellow;    
+            border-color: greenyellow;  
+        }
+        
+    </style>
 </head>
 <body>
-    <h1>Iniciando com o DOM!</h1>
+    <h1>Iniciando com o DOM</h1>
     <p>Aqui vai o resultado</p>
-    <p>Aprendendo a usar o <strong> DOM</strong> em Java Script.</p>
-    <div>Clique em mim!</div>
-    <Script>
-    
+    <p>Aprendendo a usar o <strong>DOM</strong> em Java Script</p>
+    <div id="button">
+        > CLIQUE EM MIM!
+    </div>
     
 </body>
 </html>
