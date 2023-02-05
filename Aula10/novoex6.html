@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        #block {
+            font: bold 20pt arial;
+            background-color: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            font-size: 1.5em;
+            border: 2px solid black;
+            border-radius: 5px;
+            
+        }
+    </style>
+</head>
+<body>
+    <Div id="block" onclick="clicar()" onmouseenter="enter()" onmouseleave="out()">
+        INTERAÇÃO!
+    </Div>
+    <Script>
+        var action = window.document.getElementById('block')
+
+        function clicar() {
+            action.innerText = 'INTERAGIU!'
+            action.style.background = 'red'
+        }
+        function enter() {
+            action.innerText = 'ENTROU!'
+            action.style.background = 'green'
+        }
+        function out() {
+            action.innerText = 'SAIU!'
+            action.style.background = 'blue'
+            
+        }
+
+    </Script>
+</body>
+</html>
