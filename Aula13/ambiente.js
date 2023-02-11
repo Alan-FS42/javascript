@@ -1,5 +1,10 @@
-var c = 1
-do {
-    console.log(`Passo ${c}`)
-    c++ //c++ é equivalente a c = c +1
-} while ( c <= 6)
+var cont = 1
+while (cont <= 5) {
+    console.log('Tudo bem?')
+    cont++
+}
+
+
+/*
+console.log('Tudo bem?')
+*/

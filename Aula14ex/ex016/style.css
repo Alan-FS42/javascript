@@ -1,23 +1,33 @@
 body {
-    background: rgb(144, 255, 144);
+    background: rgb(144, 246, 255);
     font: normal 15pt Arial;
 
 }
 
 header {
-    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.228);
+    color: green;
+    width: 500px;
     text-align: center;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.279);
+    background-color: rgba(255, 255, 255, 0.662);
 
 }
 
+
 section {
-    background: white;
+    background: rgba(255, 255, 255, 0.676);
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.347)
-
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.347);
+    margin-top: 20px;
+    
+    
 }
 
 footer {
